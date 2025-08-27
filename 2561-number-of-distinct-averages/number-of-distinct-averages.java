@@ -3,7 +3,7 @@ class Solution {
         HashSet<Double> set = new HashSet<>();
         Arrays.sort(arr);
         int n = arr.length;
-        for(int i=0;i<arr.length;i++){
+        for(int i=0;i<arr.length/2;i++){
             double avg = (arr[i] + arr[n-i-1])/2.0;
             set.add(avg);
         }

@@ -5,12 +5,15 @@ class Solution {
         while(l <= h){
             int mid = l+(h-l)/2;
             long sq= (long)mid*mid;
-            if(sq <= x){
-                ma =mid;
-                l = mid+1;
+            if(sq == x){
+                return mid;
+            }
+            else if(sq < x){
+                ma=mid;
+                 l = mid+1;
             }
             else{
-                h =mid-1;
+                h= mid-1;
             }
         }
         return ma;

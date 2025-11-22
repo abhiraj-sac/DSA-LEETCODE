@@ -13,13 +13,14 @@ class Solution {
                 while (!st.isEmpty() && st.peek() + arr[i] < 0 && st.peek() > 0) {
                     st.pop();
                 }
-            if (st.isEmpty() || st.peek() < 0) {
-                st.push(arr[i]);
-            }
-            else if (st.peek() + arr[i] == 0) {
+            
+             if (!st.isEmpty() && st.peek() + arr[i] == 0) {
                     // both destroyed
                     st.pop();
                 }
+               else if (st.isEmpty() || st.peek() < 0) {
+                st.push(arr[i]);
+            }
             
         }
     }

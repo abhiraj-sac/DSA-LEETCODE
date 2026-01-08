@@ -19,16 +19,17 @@ class Solution {
         Queue<TreeNode> q =new LinkedList<>();
         if(root == null){return list.size();}
         q.offer(root);
-        list.add(root.val);
+        list.add(root.val);int count=0;
         while(!q.isEmpty()){
              int size = q.size();
              for(int i=0;i<size;i++){
-             if(q.peek().left != null){q.offer(q.peek().left);list.add(q.peek().left.val);}
-             if(q.peek().right != null){q.offer(q.peek().right);list.add(q.peek().right.val);}
+                count++;
+             if(q.peek().left != null){q.offer(q.peek().left);}
+             if(q.peek().right != null){q.offer(q.peek().right);}
              q.poll();
              }
 
         }
-        return list.size();
+        return count;
     }
 }

@@ -1,35 +1,30 @@
 class Solution {
-    public int[] nextGreaterElements(int[] nums) {
-       int n = nums.length;
-        int[] res = new int[n];
-
-        HashMap<Integer, Integer> map = new HashMap<>(); 
-        Stack<Integer> st = new Stack<>();              
-
-        
-        for (int j = n - 1; j >= 0; j--) {
-            int curr = nums[j];
-
-            while (!st.isEmpty() && st.peek() <= curr) {
-                st.pop();
-            }
-
-            int nextGreater = st.isEmpty() ? -1 : st.peek();
-            
-            if (nextGreater == -1 && st.isEmpty()) {
-                for (int i = 0; i < j; i++) {
-                    if (nums[i] > curr) {
-                        nextGreater = nums[i];
-                        break; 
-                    }
+    public int[] nextGreaterElements(int[] arr) {
+      Stack<Integer> st =new Stack<>();
+      int n=arr.length;
+      int[] ans = new int[n];int c=0;
+      for(int i=n-1;i>=0;i--){
+        while(!st.isEmpty() && st.peek() <= arr[i]){
+            st.pop();
+        }
+        int x = st.isEmpty() ? -1:st.peek();
+        if(x == -1 && st.isEmpty()){
+            boolean flag=true;
+            for(int j=0;j<i;j++){
+                if(arr[j] > arr[i]){
+                    flag=false;
+                    ans[i] = arr[j];
+                    break;
                 }
             }
-            map.put(j, nextGreater);
-            st.push(curr);
+            if(flag == true){ans[i] = -1;}
         }
-        for (int i = 0; i < n; i++) {
-            res[i] = map.get(i);
+        else{
+            ans[i] = st.peek();
         }
-        return res;
+        st.push(arr[i]);
+      }
+    //   for (int i = 0, j = ans.length - 1; i < j; i++, j--) { int t = ans[i]; ans[i] = ans[j]; ans[j] = t; }
+       return ans;
     }
 }

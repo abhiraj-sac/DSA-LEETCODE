@@ -1,36 +1,23 @@
 class Solution {
     public int[] asteroidCollision(int[] arr) {
-    Stack<Integer> st = new Stack<>();
-    for (int i = 0; i < arr.length; i++) {
-        if (  arr[i] > 0 || st.isEmpty()) {
-            st.push(arr[i]);
-        
-        }
-        
-        else {
-
-//        else if(arr[i] > st.peek()){st.push(arr[i]);}
-                while (!st.isEmpty() && st.peek() + arr[i] < 0 && st.peek() > 0) {
-                    st.pop();
-                }
-            if (st.isEmpty() || st.peek() < 0) {
-                st.push(arr[i]);
+    Stack<Integer> st = new Stack<>();int n=arr.length;
+    // Stack<Integer> st= new Stack<>();
+        for(int i=n-1;i>=0;i--){
+            while(!st.empty() && arr[i] > 0 && st.peek() < 0 && arr[i] > Math.abs(st.peek())){
+                st.pop();
             }
-            else if (st.peek() + arr[i] == 0) {
-                    // both destroyed
-                    st.pop();
-                }
-            
+            if(!st.empty() && arr[i] > 0 && st.peek() < 0 && arr[i] == Math.abs(st.peek())){
+                st.pop();continue;
+            }
+            if(!st.empty() && arr[i] > 0 && Math.abs(st.peek()) > arr[i] && st.peek() < 0){
+                continue;
+            }
+            st.push(arr[i]);
         }
-    }
-       List<Integer> rems = new ArrayList<>();
-        while (!st.isEmpty()) {
-            rems.add(st.pop());
+        int[] ans = new int[st.size()];int c=0;
+        while(!st.isEmpty()){
+            ans[c++] = st.pop();
         }
-
-        Collections.reverse(rems);
-
-        return rems.stream().mapToInt(i -> i).toArray();
-
+        return ans;
 }
 }

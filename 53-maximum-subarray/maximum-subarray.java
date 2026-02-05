@@ -11,7 +11,7 @@ class Solution {
             }
 
             if (sum < 0) {
-                sum = 0;   // agar sum negative ho gaya toh reset kar do
+                sum = 0;  
             }
         }
 

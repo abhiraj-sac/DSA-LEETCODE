@@ -44,12 +44,12 @@ class Solution {
         helper(root,lists,currdepth);
         return lists;
     }
-    public void helper(TreeNode root, List<Integer> lists,int currdepth){
-       if(root == null){return;}
-       if(currdepth == lists.size()){
-        lists.add(root.val);
-       }
-       helper(root.right,lists,currdepth+1);
-       helper(root.left,lists,currdepth+1);
+    static void helper(TreeNode root,List<Integer> lists,int c){
+        if(root == null){return;}
+        if(c == lists.size()){
+            lists.add(root.val);
+        }
+       helper(root.right,lists,c+1);
+       helper(root.left,lists,c+1);
     }
 }

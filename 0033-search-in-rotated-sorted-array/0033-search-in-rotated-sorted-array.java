@@ -7,7 +7,7 @@ class Solution {
                 return mid;
             }
             if(arr[l] <= arr[mid]){
-                if(arr[l] <= t && arr[h] >= t){
+                if(arr[l] <= t && arr[mid] >= t){
                     h = mid-1;
                 }
                 else{

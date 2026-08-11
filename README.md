@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0283-move-zeroes) |
+| [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
 |  |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0169-majority-element) |
+| [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -69,4 +71,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0169-majority-element) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->

@@ -32,4 +32,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1319-number-of-operations-to-make-network-connected) |
+## Array
+|  |
+| ------- |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 <!---LeetCode Topics End-->

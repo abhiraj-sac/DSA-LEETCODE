@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0283-move-zeroes) |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+| [0704-binary-search](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0704-binary-search) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
 |  |
@@ -75,4 +76,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->

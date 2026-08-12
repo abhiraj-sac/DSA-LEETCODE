@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0283-move-zeroes) |
+| [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0704-binary-search) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0169-majority-element) |
+| [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 ## Divide and Conquer
 |  |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
 ## String
 |  |
 | ------- |
@@ -126,4 +129,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0020-valid-parentheses) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->

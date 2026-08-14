@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Breadth-First Search
 |  |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Heap (Priority Queue)
 |  |
@@ -32,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Array
 |  |
@@ -67,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -133,4 +137,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
+## Bipartite Graph
+|  |
+| ------- |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 <!---LeetCode Topics End-->

@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0704-binary-search) |
 | [0721-accounts-merge](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0721-accounts-merge) |
+| [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
 |  |
@@ -99,12 +100,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+| [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
 ## Binary Search
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0704-binary-search) |
+| [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
 ## Linked List
 |  |
 | ------- |
@@ -154,4 +157,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->

@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0283-move-zeroes) |
+| [0455-assign-cookies](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0704-binary-search) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0283-move-zeroes) |
+| [0455-assign-cookies](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0455-assign-cookies) |
 | [0876-middle-of-the-linked-list](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Hash Table
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0169-majority-element) |
+| [0455-assign-cookies](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0721-accounts-merge) |
 ## Counting
 |  |
@@ -158,4 +161,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
+## Greedy
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0455-assign-cookies) |
+## Quicksort
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->

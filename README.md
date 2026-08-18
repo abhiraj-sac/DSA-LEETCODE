@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0169-majority-element) |
+| [0424-longest-repeating-character-replacement](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0721-accounts-merge) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0020-valid-parentheses) |
+| [0424-longest-repeating-character-replacement](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0721-accounts-merge](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0721-accounts-merge) |
 ## Bracket Sequences
 |  |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
 ## Greedy
 |  |

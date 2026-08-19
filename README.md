@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0704-binary-search) |
 | [0721-accounts-merge](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0721-accounts-merge) |
+| [0930-binary-subarrays-with-sum](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0721-accounts-merge) |
+| [0930-binary-subarrays-with-sum](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0930-binary-subarrays-with-sum) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 ## Divide and Conquer
 |  |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
+| [0930-binary-subarrays-with-sum](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
 ## Binary Search
 |  |
@@ -163,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
+| [0930-binary-subarrays-with-sum](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
 ## Greedy
 |  |

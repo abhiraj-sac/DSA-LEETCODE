@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0704-binary-search) |
 | [0721-accounts-merge](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0721-accounts-merge) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0503-next-greater-element-ii) |
 ## String
 |  |
 | ------- |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0503-next-greater-element-ii) |
 ## Bipartite Graph
 |  |
 | ------- |

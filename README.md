@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0721-accounts-merge) |
 | [0930-binary-subarrays-with-sum](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
+| [1539-kth-missing-positive-number](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1539-kth-missing-positive-number) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 ## Two Pointers
 |  |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1004-max-consecutive-ones-iii) |
+| [1539-kth-missing-positive-number](https://github.com/abhiraj-sac/DSA-LEETCODE/tree/master/1539-kth-missing-positive-number) |
 ## Linked List
 |  |
 | ------- |

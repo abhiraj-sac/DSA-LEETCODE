@@ -8,30 +8,38 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
-
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-    ListNode t1 =l1;
-    ListNode t2=l2;
-    int sum=0;int c=0;
-    ListNode dummy = new ListNode(0);
-    ListNode curr = dummy;
-    while(t1 != null || t2 != null){
-        sum = c;
-        if(t1 != null){sum += t1.val;}
-        if(t2 != null){sum += t2.val;}
-       ListNode newnode = new ListNode(sum%10);
-        c = sum /10;
-        curr.next = newnode;
-        curr = curr.next;
-       if(t1 != null){ t1 = t1.next;}
-       if(t2 != null){ t2 =t2.next;}
+        ListNode dummy = new ListNode(-1);
+        ListNode temp = dummy;
+        int carry=0;int sum=0;
+        while(l1 != null || l2 != null || carry != 0){
+                sum = carry;
+                if(l1 !=null){
+                    sum += l1.val;
+                    l1=l1.next;
+                }
+                if(l2 !=null){
+                    sum += l2.val;
+                    l2=l2.next;
+                }
+                int digit = sum % 10;
+            carry = sum / 10;
+
+            temp.next = new ListNode(digit);
+            temp = temp.next;
+        }
         
-    } 
-    if(c != 0){
-        ListNode newnode = new ListNode(c);
-        curr.next = newnode;
-    }
-    return dummy.next;
+        return dummy.next;
     }
 }

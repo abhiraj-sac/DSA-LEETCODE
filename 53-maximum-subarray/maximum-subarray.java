@@ -1,20 +1,16 @@
 class Solution {
     public int maxSubArray(int[] arr) {
-       int max = Integer.MIN_VALUE; // sabse chhoti value rakho start mai
-        int sum = 0;
-
-        for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
-
-            if (sum > max) {
-                max = sum;  // max update karo
+        int max=max=Integer.MIN_VALUE;;
+        int sum=0;
+        for(int i=0;i<arr.length;i++){
+            if(sum < 0){
+                sum =0;
             }
-
-            if (sum < 0) {
-                sum = 0;  
-            }
+            // else{/
+                sum += arr[i];
+                max = Math.max(max,sum);
+            // }
         }
-
         return max;
     }
 }

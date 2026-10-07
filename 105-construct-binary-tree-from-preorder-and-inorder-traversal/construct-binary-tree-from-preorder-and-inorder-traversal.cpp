@@ -9,73 +9,77 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// ```cpp
 class Solution {
 public:
 
-    unordered_map<int,int> mp;
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
 
-    TreeNode* build(
-        vector<int>& preorder,
-        int preStart,
-        int preEnd,
-        vector<int>& inorder,
-        int inStart,
-        int inEnd
-    ) {
+        map<int, int> inmap;
 
-        if(preStart > preEnd || inStart > inEnd)
-            return NULL;
-
-        // preorder ka first element = root
-        int rootValue = preorder[preStart];
-
-        TreeNode* root = new TreeNode(rootValue);
-
-        // inorder mein root ki position
-        int inIndex = mp[rootValue];
-
-        // left subtree mein kitne nodes hain
-        int leftSize = inIndex - inStart;
-
-        // left subtree
-        root->left = build(
-            preorder,
-            preStart + 1,
-            preStart + leftSize,
-            inorder,
-            inStart,
-            inIndex - 1
-        );
-
-        // right subtree
-        root->right = build(
-            preorder,
-            preStart + leftSize + 1,
-            preEnd,
-            inorder,
-            inIndex + 1,
-            inEnd
-        );
-
-        return root;
-    }
-
-    TreeNode* buildTree(
-        vector<int>& preorder,
-        vector<int>& inorder
-    ) {
-
-        for(int i = 0; i < inorder.size(); i++) {
-            mp[inorder[i]] = i;
+        for (int i = 0; i < inorder.size(); i++) {
+            inmap[inorder[i]] = i;
         }
 
-        return build(
+        TreeNode* root = build(
             preorder,
             0,
             preorder.size() - 1,
             inorder,
             0,
-            inorder.size() - 1
+            inorder.size() - 1,
+            inmap
         );
+
+        return root;
+    }
+
+    TreeNode* build(
+        vector<int>& preorder,
+        int prestart,
+        int preend,
+        vector<int>& inorder,
+        int instart,
+        int inend,
+        map<int, int>& inmap
+    ) {
+
+        // No elements in this subtree
+        if (prestart > preend || instart > inend) {
+            return NULL;
+        }
+
+        // First element of preorder is the root
+        TreeNode* root = new TreeNode(preorder[prestart]);
+
+        // Find root's position in inorder
+        int inroot = inmap[root->val];
+
+        // Number of nodes in left subtree
+        int numleft = inroot - instart;
+
+        // Build left subtree
+        root->left = build(
+            preorder,
+            prestart + 1,
+            prestart + numleft,
+            inorder,
+            instart,
+            inroot - 1,
+            inmap
+        );
+
+        // Build right subtree
+        root->right = build(
+            preorder,
+            prestart + numleft + 1,
+            preend,
+            inorder,
+            inroot + 1,
+            inend,
+            inmap
+        );
+
+        return root;
     }
 };

@@ -10,25 +10,54 @@
  * };
  */
 class Solution {
-    void inorder(TreeNode* root,vector<int>* inmap){
-        if(root == NULL){return;}
-        inorder(root->left,inmap);
-        inmap->push_back(root->val);
-        inorder(root->right,inmap);
+    class BSTIT{
+        stack<TreeNode*> st;
+        bool reverse = true; 
+    public:
+         BSTIT(TreeNode* root,bool isrev){
+            reverse = isrev;
+            pushall(root);
+         }
+    // public:
+
+    int next(){
+        TreeNode* node = st.top();
+        st.pop();
+        if (reverse) {
+    pushall(node->left);
+} else {
+    pushall(node->right);
+}
+        return node->val;
     }
+    private: 
+    void pushall(TreeNode* node){
+        for(;node!= NULL;){
+            st.push(node);
+            if(reverse == true){
+                node = node->right;
+            }
+            else{
+                node = node->left;
+            }
+        }
+    }
+
+    };
 public:
     bool findTarget(TreeNode* root, int k) {
-        vector<int> inmap;
-        inorder(root,&inmap);
-        // return inmap;
-        map<int,int> m;
-        for(int i =0;i< inmap.size();i++){
-             if(m.count(k-inmap[i])){
-                return true;
-             }
-             m[inmap[i]] = i; 
-        }
-        return false;
+       if(!root){return false;}
+       BSTIT l(root,false);
+       BSTIT r(root,true);
+
+       int i = l.next();
+       int j = r.next();
+       while(i < j){
+        if( i+j == k){return true;}
+        else if(i+j < k) i = l.next();
+        else j = r.next();
+       }
+       return false;
     }
     
 };

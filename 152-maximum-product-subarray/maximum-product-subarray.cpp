@@ -14,7 +14,7 @@ public:
         for(int i=nums.size()-1;i>=0;i--){
             prod *= nums[i];
             maxi = max(maxi,prod);
-            if(prod ==0 ){
+            if(prod ==0 ){ 
                 prod =1;
             }
         }

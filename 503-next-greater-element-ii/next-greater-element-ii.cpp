@@ -1,31 +1,30 @@
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
-        stack<int> s ;
+        stack<int> st;
         vector<int> ans(nums.size());
-        for(int i=nums.size()-1 ;i >= 0 ;i--){
-            while(!s.empty() && s.top() <= nums[i]){
-                s.pop();
+        for(int i=nums.size()-1;i>=0;i--){
+            while(!st.empty() && nums[i] >= st.top()){
+                st.pop();
             }
-            int x = s.empty() ? -1:s.top();
-            if(s.empty() && x == -1){
-                bool flag  =true;
-                for(int j = 0 ; j< i;j++){
+            int x =st.empty()?-1:st.top();
+            if(st.empty() &&x == -1){
+                bool flag = false;
+                for(int j=0;j<i;j++){
                     if(nums[j] > nums[i]){
-                        flag = false;
                         ans[i] = nums[j];
+                        flag = true;
                         break;
                     }
                 }
-                if(flag == true){
-                    ans[i] = -1;
+                if(flag == false){
+                   ans[i] = -1;
                 }
-                
             }
             else{
-                 ans[i] = s.top();   
-                }
-                s.push(nums[i]);
+                ans[i] = x;
+            }
+            st.push(nums[i]);
         }
         return ans;
     }
